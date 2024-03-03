@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Kode+Mono:wght@400..700&family=Leckerli+One&family=Lobster&family=Monoton&family=Protest+Riot&family=Rubik+Glitch+Pop&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Kode+Mono:wght@400..700&family=Leckerli+One&family=Lobster&family=Monoton&family=Palanquin+Dark:wght@400;500;600;700&family=Protest+Riot&family=Rubik+Glitch+Pop&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Alef:wght@400;700&family=Kode+Mono:wght@400..700&family=Leckerli+One&family=Lobster&family=Monoton&family=Palanquin+Dark:wght@400;500;600;700&family=Protest+Riot&family=Rubik+Glitch+Pop&display=swap');
+body{
+	background: rgb(8,98,173);
+	background-image: url(images/wp4515629\ \(1\).jpg);
+	font-family:Verdana, Arial, sans-serif;
+	color: #666666;
+	background-size: auto;
+	
+	
+}
+header{
+	
+	color: #FFFFFF;
+	font-family: Georgia, serif;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 80px;
+	font-size: 30px;
+
+	
+}
+header a {
+	text-decoration: none;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	font-size: 30px;
+}
+
+h1{
+	line-height: 120%;
+	text-align: center;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h1{
+	color: hsl(0, 9%, 98%);
+}				
+h3{ 
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	color: #000000;
+}
+
+/*Header Hover*/
+
+
+header h1:link{
+	color: #5C7FA3
+}
+header h1:visited{
+	color: #344873
+}
+header h1:hover{
+	color: hsl(0, 1%, 68%)
+}
+header h1:active{
+	color: #000000}
+
+
+nav{
+	font-weight: bold;
+	padding: 5px;
+	text-align: center;	
+}
+nav a {
+	text-decoration: none;
+	font-size: 20px;
+	color: hsl(255, 100%, 14%);
+}
+
+/*Nav a Hover*/
+nav a:link{
+	color: #5C7FA3
+}
+nav a:visited{
+	color: #344873
+}
+nav a:hover{
+	color: hsl(0, 23%, 92%)
+}
+nav a:active{
+	color: #000000}
+nav ul{
+	list-style-type: none;
+	}
+
+h2{
+	font-family: Georgia, serif;
+	color: #1976D2;
+}
+dt{
+	font-weight: bold;
+	color: #002171;
+}
+.resort{
+	font-size: 1.2em;
+	color: #1976D2;
+}
+footer{
+	font-size: .7em;
+	font-style: italic;
+	text-align: center;
+	padding: 1em 1em 1em 1em;
+	padding-top: 45vh;
+}
+#wrapper{
+	
+	margin-left: auto;
+	margin-right: auto;
+	width: 90%;
+	height: 750px;
+	min-width: 960px;
+	max-width: 2048px;
+	-webkit-box-shadow: 5px 5px 15px 5px hsl(0, 0%, 100%); 
+	box-shadow: 5px 5px 15px 5px hsl(0, 0%, 100%);
+
+}
+#wrapper h1{
+	text-decoration: none;
+}
+#yurthero{
+	background-image: url(images/IMG_20221229_174517_873.jpg);
+	height: 450px;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	color: #000000;
+}
+#adventure{
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+main {
+	padding-right: 2em;
+	padding-left: 2em;
+}
+main p{
+	color:  hsl(0, 0%, 0%);
+	font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+
+}
+/*Main*/
+main dt{
+	color: #000000;
+	font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+}
+main dd{
+	color: #000000;
+	font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+}
+main h2{
+	color: hwb(210 1% 70%);
+	font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+}
+main ul{
+	color: #000000;
+}
+h2{
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	color: #002171;		
+}
+.logo img{
+	float: left;
+	width: 200px;
+	height: auto;
+}
+
+/*Reservation*/
+.form-card {
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: rgba(255, 255, 255, 0.318);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+}
+
+/*Form*/
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    font-weight: bold;
+    color: #18096b;
+    font-family: 'Cinzel', serif;
+}
+
+input[type="text"], input[type="email"], input[type="date"], select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button[type="submit"] {
+    background-color: #39b8bd;
+    color: #fff;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+}
+
+button[type="submit"]:hover {
+    background-color:#61d1c4;
+}
+
+button[type="reset"] {
+    background-color: #fff;
+    color: black;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+}
+
+button[type="reset"]:hover {
+    background-color: #a7d1e9;
+}
+
+.form-group ::placeholder {
+    padding-left: 10px;
+}
+#aboutus-wrapper{
+	margin-left: auto;
+	margin-right: auto;
+	width: 90%;
+	height: 1000px;
+	min-width: 960px;
+	max-width: 2048px;
+	-webkit-box-shadow: 5px 5px 15px 5px hsl(0, 0%, 100%); 
+	box-shadow: 5px 5px 15px 5px hsl(0, 0%, 100%);
+}
+#reservation-nav{
+	float: left;
+}
+
